@@ -1,0 +1,54 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is FarmERPAI", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 25 years old!", "My birth year 1996","I am not too much old i am only two years old"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?", ""],
+         "responses": ["You can call me FarmERPAI.", "I'm FarmERPAI!", "I'm FarmERPAI from FarmERP Networks pvt. Ltd."],
+         "context_set": ""
+        },
+        {"tag": "course",
+         "patterns": ["","courses","course", "How many courses are availavle ", "which course do you reccommend?", "could i get something to study","what is your facilities"],
+         "responses": ["We provide 1.ML\n2.Python\n3.Redhat\n4.Bigdata\n5.AWS", "Courses are 1.ML\n2.Python\n3.FarmERP\n4.Bigdata\n5.AWS","We will teach you 1.ML\n2.Python\n3.Redhat\n4.Bigdata\n5.AWS"],
+         "context_set": ""
+        },
+        {"tag": "trainer",
+         "patterns": ["who is trainer", "Who will teach", "who is teacher"],
+         "responses": ["FarmERP Trainer", "FarmERP Trainer","FarmERP Trainer","Expert FarmERP Trainer"],
+         "context_set": ""
+        },
+        {"tag": "opening",
+         "patterns": ["what is Opening time", "institute timing", "Coaching timing", "institute time","Coaching time"],
+         "responses": ["We are open 9am-7pm Monday-Saturday!","Monday-Saturday:9am-7pm"],
+         "context_set": ""
+        },
+        {"tag": "timing",
+         "patterns": ["what is class time", "class timing", "class period"],
+         "responses": ["Class timing 9am to 11am ", "class timing 11am to 1pm", "class timing 2pm to 4pm","class timing 4pm to 6pm"],
+         "context_set": ""
+        },
+        {"tag": "fee",
+         "patterns": ["what is contact number", "contact", "contact no", "phone no","phone number",  "mobile number", "mobile no"],
+         "responses": ["You can contact to Sudhira HR : +91-20-24216370  timing 10am to 6pm"],
+         "context_set": ""
+        },
+        {"tag": "address",
+         "patterns": ["address", "location", "what is address", "where it is located", "what is your location", "where is your office location", "what it i situated"],
+         "responses": ["Unit No 17,2Nd Flr,Electronic Co-Operative Estate Ltd,Pune Satara Road,Opp Utsav Delux Hotel, Pune-411009"],
+         "context_set": ""
+        }
+
+   ]
+}
