@@ -6,7 +6,7 @@ Flask-SocketIO==4.3.0
 gevent==1.4.0
 httptools==0.1.1
 nltk==3.5
-Pillow==7.1.2
+Pillow==8.1.1
 python-socketio==4.6.0
 requests==2.23.0
 requests-toolbelt==0.9.1
